@@ -218,6 +218,9 @@
         <li>
             <a href="https://coursera.org/share/81aae81bb0e606e5e5bd7aeb1119f372" target="_blank" rel="noopener noreferrer">Academic Skills for University Success</a>
         </li>
+        <li>
+            <a href="https://www.hackerrank.com/certificates/c9cec7cd691b" target="_blank" rel="noopener noreferrer">Python (Basic) Certificat`e</a>
+        </li>
     </ol>
     <!-- End Training, Participation and Certification -->
     <br/>
