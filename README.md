@@ -14,6 +14,6 @@
 
             self._contact = {
                 "email": "ducna1462@gmail.com",
-                "phone": "+84 76 586 8665"
+                "phone": "+1 385 560 2124"
             }
 ```
