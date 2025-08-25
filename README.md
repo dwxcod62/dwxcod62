@@ -23,10 +23,20 @@ class Kudamii:
             "🐹 GoLang"
         ]
 
+        self._location: list[str] = [
+            "🇻🇳 Vietnam",
+            "🇺🇸 United States (present)"
+        ]
+
+        self._education: list[str] = [
+            "🎓 FPT University (FPTU)",
+            "🎓 Salt Lake Community College (SLCC)"
+        ]
+
         self._contact: dict[str, str] = {
             "📧 Email": "ducna1462@gmail.com",
             "📱 Phone": "+1 385 560 2124",
-            "📸 Instagram": "https://www.instagram.com/_.kudamine._/"
+            "📸 Instagram": "instagram.com/_.kudamine._/"
         }
 
     def __repr__(self) -> str:
