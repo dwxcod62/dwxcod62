@@ -1,19 +1,36 @@
-:wave: Welcome to my GitHub profile! :pushpin:
+## :wave: Welcome to my GitHub profile! :pushpin:
+
 ```python
-    class Kudamii:
-        def __init__(self):
-            self.introduce()
+class Kudamii:
+    def __init__(self) -> None:
+        self.name: str = "Nguyen Anh Duc"
+        self.alias: str = "Kudamii"
+        self.introduce()
 
-        def _introduce(self):
-            self._about = """I'm Nguyen Anh Duc, aka Kudamii Nguyen. I'm passionate about Python, algorithms,
-                             and the mysteries around us. I love solving complex problems with Python and am 
-                             fascinated by the creativity in algorithms. Beyond coding, I constantly seek to explore 
-                             the unknown. Join me in this journey of innovation and discovery! 🚀🔍"""
+    def introduce(self) -> None:
+        self._about: str = f"""
+        Hi, I'm {self.name} (aka {self.alias}).
 
-            self._tech = ["Python", "Java", "JavaScript", "GoLang"]
+        💡 Passionate about Python, Algorithms, and exploring mysteries.  
+        ⚡ Skilled in solving complex problems & building creative solutions.  
+        🚀 Always curious about the unknown!  
+        """
 
-            self._contact = {
-                "email": "ducna1462@gmail.com",
-                "phone": "+1 385 560 2124"
-            }
-```
+        self._tech: list[str] = [
+            "🐍 Python",
+            "☕ Java",
+            "🌐 JavaScript",
+            "🐹 GoLang"
+        ]
+
+        self._contact: dict[str, str] = {
+            "📧 Email": "ducna1462@gmail.com",
+            "📱 Phone": "+1 385 560 2124",
+            "📸 Instagram": "https://www.instagram.com/_.kudamine._/"
+        }
+
+    def __repr__(self) -> str:
+        return f"<Anh Duc alias={self.alias} stack={', '.join(self._tech)}>"
+
+    def __call__(self) -> str:
+        return self._about
